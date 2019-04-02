@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Mi Libro Contable</string>
+    <string name="navigation_view_inicio_name">Inicio</string>
+    <string name="navigation_view_ingresos_name">Ingresos</string>
+    <string name="navigation_view_gastos_name">Gastos</string>
+    <string name="navigation_view_ahorro_name">Ahorro</string>
+    <string name="navigation_view_configuracion_name">Configuración</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Brayden Lopera Vasquez</string>
+    <string name="nav_header_subtitle">b.lopera9505@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>

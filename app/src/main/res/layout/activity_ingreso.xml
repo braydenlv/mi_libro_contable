@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IngresoActivity"
+    android:padding="8dp"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Nuevo ingreso"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:hint="Ingrese monto"
+            android:inputType="phone"
+            android:singleLine="true"
+            android:textSize="30sp" />
+
+        <Spinner
+            android:id="@+id/spinnerCategoria"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="8dp"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom">
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="4"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+            <Button
+            android:text="1"
+            android:layout_gravity="fill"
+                />
+            <Button
+                android:text="1"
+                android:layout_gravity="fill"/>
+            <Button
+                android:text="1"
+                android:layout_gravity="fill"/>
+            <Button
+                android:text="1"
+                android:layout_gravity="fill"/>
+            <Button
+                android:text="1"
+                android:layout_gravity="fill"/>
+            <Button
+                android:text="1"
+                android:layout_gravity="fill"/>
+            <Button
+                android:text="1"
+                android:layout_gravity="fill"/>
+            <Button
+                android:text="1"
+                android:layout_gravity="fill"/>
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
