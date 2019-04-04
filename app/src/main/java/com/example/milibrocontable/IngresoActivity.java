@@ -19,9 +19,7 @@ public class IngresoActivity extends AppCompatActivity {
         actionBar.setDisplayHomeAsUpEnabled(true);
         actionBar.setTitle(getString(R.string.navigation_view_ingresos_name));
 
-        Spinner spinner = (Spinner) findViewById(R.id.spinnerCategoria);
-        String[] categorias = {"Categoria","Sueldo","Ocasionales","Inversiones","Otros"};
-        spinner.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, categorias));
+
 
     }
 
