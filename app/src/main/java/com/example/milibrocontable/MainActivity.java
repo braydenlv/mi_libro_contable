@@ -73,15 +73,11 @@ public class MainActivity extends AppCompatActivity
             ActionBar actionBar = getSupportActionBar();
             actionBar.setTitle(getString(R.string.navigation_view_inicio_name));
         } else if (id == R.id.nvIngresos) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.contenedor_fragmentos, new FragmentoIngresos()).commit();
             Intent intent = new Intent(this, IngresoActivity.class);
             startActivity(intent);
-            //ActionBar actionBar = getSupportActionBar();
-            //actionBar.setTitle(getString(R.string.navigation_view_ingresos_name));
         } else if (id == R.id.gastos) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.contenedor_fragmentos, new FragmentoGastos()).commit();
-            ActionBar actionBar = getSupportActionBar();
-            actionBar.setTitle(getString(R.string.navigation_view_gastos_name));
+            Intent intent = new Intent(this, GastoActivity.class);
+            startActivity(intent);
         } else if (id == R.id.nvAhorro) {
             getSupportFragmentManager().beginTransaction().replace(R.id.contenedor_fragmentos, new FragmentoAhorro()).commit();
             ActionBar actionBar = getSupportActionBar();
